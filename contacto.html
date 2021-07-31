@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+
+	<title>Formulario</title>
+</head>
+<body>
+<form id="formulario" action="enviar.php" method="POST" enctype="multipart/form-data">
+	<fieldset>
+	<legend>Envía tu recomendación</legend>
+        <label for="nombreyapellido">Nombre y Apellido</label> 
+        <input type="text" name="nombreyapellido" maxlength="100">
+        <br>
+        <label for="email">Mail</label>
+        <input type="email">
+        <br>
+        
+        <h4>Estado Civil:</h4>
+        <select name="Desple">
+            <option value="Soltera/o">Soltera/o</option>
+            <option value="Casada/o">Casada/o</option>
+            <option value="Divorciada/o">Divorciada/o</option>
+            </select>
+
+        <br>
+        <h4>Sexo:</h4>
+        <label>Masculino</label>
+        <input type="radio" name="sexo" value="Masculino">
+        <label>Femenino</label>
+        <input type="radio" name="sexo" value="Femenino">
+        <label>Otro</label>
+        <input type="radio" name="sexo" value="Otro">
+        <br>
+
+        <label>Desea recibir nuestro Newsletter</label>
+        <input type="checkbox" name="autorindependiente" value="1">
+
+        <br>
+        <input type="submit" name="submit" value="Enviar">
+        <input type="reset" name="reset" value="Limpiar">
+	</fieldset>
+</form></body>
+</html>

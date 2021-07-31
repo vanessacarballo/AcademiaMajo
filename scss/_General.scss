@@ -1,0 +1,106 @@
+/*General */
+$beige: #a59481;
+$padding-size: 0px;
+$ancho: 1200px;
+
+/* etiqueta raíz */
+html { 
+    background: $beige;
+ }
+.option {background: $beige;
+    color: #8B1B3F;
+}
+.select {background: $beige;
+    color: #8B1B3F;
+}
+* {
+    background:$beige;
+    margin:0;
+    padding: $padding-size;
+}
+.body {background: $beige;
+    margin:0PX;
+    padding: $padding-size;
+    color: #8B1B3F;}
+
+    .title {   
+        color: #8B1B3F;
+        margin-left: 500PX;
+
+        &:hover {
+            transition: 3s;
+            font-size: 3rem;
+        } 
+            
+        }
+    .nav-container {
+           background: $beige;
+            text-align: center;
+            margin-left:700PX;
+            width: $ancho/2;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        
+        ul {
+            list-style:none;
+        }
+       //seguir reemplazando  
+        .nav-container > li {
+            float:left;
+        }
+        
+        .nav-container li a {
+        color:#8B1B3F;
+            text-decoration:none;
+            padding:10px 12px;
+            display:flex;
+        }
+        
+        .nav-container li a:hover {
+            background-color: $beige;
+            color: #50071e;
+        }
+        
+        .nav-container li ul {
+            display:none;
+            position:absolute;
+            min-width:140px;
+        }
+        
+        .nav-container li:hover > ul {
+            display:block;
+        }
+        
+        .nav-container li ul li {
+            position:relative;
+        }
+        
+        .nav-container li ul li ul {
+            right:-140px;
+            top:0px;
+        }
+
+        .container {
+            background: $beige;
+            height: 530px;
+            z-index: 100;
+            overflow: hidden;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .text-container p {
+            color: #8B1B3F;
+            margin-left: 200px;
+            margin-right: 500px;
+            font-size: 20px;}
+
+      .table{
+        background: $beige;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+       .abbr{background-color: $beige;
+                color: #8B1B3F;
+             }       

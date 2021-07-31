@@ -1,0 +1,114 @@
+h1 {    color: #8B1B3F;
+    margin-left: 500PX;
+}
+        h1:hover {
+            transition: 3s;
+            font-size: 3rem;
+          }       
+
+        p{color: #8B1B3F;
+            margin-left: 200px;
+            margin-right: 500px;
+            font-size: 20px;}
+
+        body {background: #a59481;
+            margin:0PX;
+            padding:0px;
+            color: #8B1B3F;}
+
+        input {background:#f0ebe5;}
+            
+        option {background:#a59481;
+            color: #8B1B3F;
+        }
+        select {background:#a59481;
+            color: #8B1B3F;
+        }
+            * {
+                margin:0;
+                padding:0;
+            }
+            
+            .nav-container {
+                text-align: center;
+                margin-left:700PX;
+                width:600px;
+                font-family:Arial, Helvetica, sans-serif;
+            }
+            
+            ul {
+                list-style:none;
+            }
+            
+            .nav-container> li {
+                float:left;
+            }
+            
+            .nav-container li a {
+               color:#8B1B3F;
+                text-decoration:none;
+                padding:10px 12px;
+                display:flex;
+            }
+            
+            .nav-container li a:hover {
+                background-color:#a59481;
+                  color: #50071e;
+            }
+            
+            .nav-container li ul {
+                display:none;
+                position:absolute;
+                min-width:140px;
+            }
+            
+            .nav-container li:hover > ul {
+                display:block;
+            }
+            
+            .nav-container li ul li {
+                position:relative;
+            }
+            
+            .nav-container li ul li ul {
+                right:-140px;
+                top:0px;
+            }
+            .container {
+                height: 530px;
+                z-index: 100;
+                overflow: hidden;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .table{
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .abbr{background-color: #a59481;
+                color: #8B1B3F;
+             }
+            
+             footer {
+                background-color: #a59481;
+                width: 100%;
+                height: 100px;
+                padding: 50px 0 0 0;
+                text-align: center;
+            }
+              
+              footer a {
+                font-size: 2rem;
+                font-weight: 900;
+                text-align: center;
+                margin-left: 0PX; }
+            
+                iframe{
+                    text-align: center;
+                }
+
+   @media screen AND (MIN-WIDTH: 768PX)   {
+        body {background-color: #a59481}
+    }   
+    
